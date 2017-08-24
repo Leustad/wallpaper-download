@@ -26,4 +26,4 @@ $ pip install -r requirements.txt
 $ python main.py
 ``` 
 
-Note: Change the _destination_path_ variable value according to your needs. 
+Note: Change the _destination_path_ variable value according to where you want to download. 
