@@ -33,7 +33,7 @@ try:
 
     # high quality image
     img_dl_url = 'http://www.bing.com/hpwp/' + img_data['images'][0]['hsh']
-    img_name = img_url[re.search("rb/", img_url).end():re.search('_EN', img_url).start()] + '.jpg'
+    img_name = img_data['images'][0]['title'] + '.jpg'
 
     file_path = os.path.join(DESTINATION_PATH, img_name)  # <-- Change accordingly
 
